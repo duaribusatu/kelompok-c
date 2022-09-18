@@ -17,3 +17,6 @@ def max_number(a, b):
 
 def root(a, b):
     return a*(math.sqrt(b))
+
+def mod(a, b):
+    return a % b

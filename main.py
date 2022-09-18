@@ -21,6 +21,9 @@ def main():
     if operator == "**":
         result = exp(data_1, data_2)
         print("{} {} {} = {} ".format(data_1, operator, data_2, result))
+       
+    if operator == "%":
+        result = mod(data_1, data_2)
 
     if operator == "max":
         result = max_number(data_1, data_2)
