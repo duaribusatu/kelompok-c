@@ -1,4 +1,4 @@
-from math_function import add, mul, div, root
+from math_function import add, max, mul, div
 
 
 def main():
@@ -16,8 +16,8 @@ def main():
     if operator == "/":
         result = div(data_1, data_2)
     
-    if operator == "**":
-        result = root(data_1, data_2)
+    if operator == "lebih":
+        result = max(data_1, data_2)
     
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
