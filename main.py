@@ -16,6 +16,9 @@ def main():
     if operator == "/":
         result = div(data_1, data_2)
     
+    if operator == "**":
+        result = root(data_1, data_2)
+    
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
 
