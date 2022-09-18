@@ -1,4 +1,4 @@
-from math_function import add, mul, div
+from math_function import add, mul, div, root
 
 
 def main():
