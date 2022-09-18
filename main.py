@@ -1,4 +1,4 @@
-from math_function import add, max, mul, div
+from math_function import add, max, mul, div, mod
 
 
 def main():
@@ -18,6 +18,9 @@ def main():
     
     if operator == "lebih":
         result = max(data_1, data_2)
+
+    if operator == "%":
+        result = mod(data_1, data_2)
     
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
